@@ -4,6 +4,8 @@ topic: "Taskwarrior"
 question: "Why have attribute modifiers rather than the more readable and algebraic form?"
 ---
 
+Back to the [FAQ](/support/faq)
+
 ### Q: Why have attribute modifiers (`urgency.over:10`) rather than the more readable and algebraic form (`urgency>10`)?
 
 Taskwarrior already supports both forms.
@@ -41,4 +43,4 @@ noword            desc.noword:Hello  desc !~ '\bHello\b'  Boundaried word non-ma
 ...
 ```
 
-See \'man task\', for the `ATTRIBUTE MODIFIERS` and `EXPRESSIONS AND OPERATORS` sections.
+See 'man task', for the `ATTRIBUTE MODIFIERS` and `EXPRESSIONS AND OPERATORS` sections.

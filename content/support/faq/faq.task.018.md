@@ -4,10 +4,12 @@ topic: "Taskwarrior"
 question: "How can I include the time spent on a task in a custom report?"
 ---
 
+Back to the [FAQ](/support/faq)
+
 ### Q: How can I include the time spent on a task in a custom report?
 
 Total active time is not a reportable field.
-It\'s not even a field, it\'s simply aggregated from the `undo.data` file.
+It's not even a field, it's simply aggregated from the `undo.data` file.
 As such it is a faithful account of how long a task was in the active state, but that is not what is needed for time tracking.
 
 Proper time tracking allows for corrections, and mining the `undo.data` file does not permit corrections.
